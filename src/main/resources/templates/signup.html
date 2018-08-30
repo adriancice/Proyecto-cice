@@ -12,17 +12,20 @@
 			<h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
 
 			<label for="nombre" class="sr-only">Nombre</label> <input type="text"
-				th:field="*{nombre}" id="nombre" class="form-control"
+				th:field="*{nombre}" id="nombre" class="form-control my-2"
 				placeholder="Nombre" required autofocus /> <label for="apellido"
 				class="sr-only">Apellido</label> <input type="text"
-				th:field="*{apellido}" id="apellido" class="form-control"
+				th:field="*{apellido}" id="apellido" class="form-control my-2"
 				placeholder="Apellido" required autofocus /> <label for="email"
 				class="sr-only">Email address</label> <input type="email"
-				th:field="*{email}" id="email" class="form-control"
+				th:field="*{email}" id="email" class="form-control my-2"
 				placeholder="Email address" required autofocus /> <label
 				for="password" class="sr-only">Password</label> <input
 				type="password" th:field="*{password}" id="password"
-				class="form-control" placeholder="Password" required />
+				class="form-control my-2" placeholder="Password" required /> <label
+				for="confirm_password" class="sr-only">Password</label> <input
+				type="password" th:field="*{confirm_password}" id="confirm_password"
+				class="form-control my-2" placeholder="Confirm password" required />
 
 
 			<button class="btn btn-lg btn-primary btn-block" type="submit">Sign

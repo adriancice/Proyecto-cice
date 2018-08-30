@@ -105,4 +105,10 @@ public class UsuarioController {
 		return "redirect:/listar";
 	}
 
+	@RequestMapping(value = "/login")
+	public String login(Model model) {
+
+		return "/login";
+	}
+
 }
